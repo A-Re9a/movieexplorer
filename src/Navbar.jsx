@@ -68,7 +68,7 @@ export default function Navbar() {
                         component="div"
                         sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
                     >
-                        <a href='/movieexplorer' style={{color:'white',textDecoration:'none' }} >MovieEx</a>
+                        <a href='https:/A-Re9a.github.io/movieexplorer' style={{color:'white',textDecoration:'none' }} >MovieEx</a>
                     </Typography>
                     <Search>
                         <SearchIconWrapper>
