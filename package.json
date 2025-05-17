@@ -2,7 +2,7 @@
   "name": "movieexplorer",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https:/A-Re9a.github.io/movieexplorer",
+  "homepage": "https:/A-Re9a.github.io/movieexplorer/",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -18,7 +18,9 @@
     "@mui/icons-material": "^7.1.0",
     "@mui/material": "^7.1.0",
     "@tailwindcss/vite": "^4.1.7",
+    "@tanstack/query-sync-storage-persister": "^5.76.1",
     "@tanstack/react-query": "^5.76.1",
+    "@tanstack/react-query-persist-client": "^5.76.1",
     "gh-pages": "^6.3.0",
     "motion": "^12.12.1",
     "react": "^19.1.0",

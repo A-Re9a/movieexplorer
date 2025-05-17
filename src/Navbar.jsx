@@ -7,7 +7,7 @@ import Typography from '@mui/material/Typography';
 import InputBase from '@mui/material/InputBase';
 import SearchIcon from '@mui/icons-material/Search';
 import {  useState } from 'react';
-import {useNavigate} from "react-router-dom"
+import {Link, useNavigate} from "react-router-dom"
 const Search = styled('div')(({ theme }) => ({
     position: 'relative',
     borderRadius: theme.shape.borderRadius,
@@ -68,7 +68,7 @@ export default function Navbar() {
                         component="div"
                         sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
                     >
-                        <a href='https:/A-Re9a.github.io/movieexplorer' style={{color:'white',textDecoration:'none' }} >MovieEx</a>
+                        <Link to='/' style={{color:'white',textDecoration:'none' }} >MovieEx</Link>
                     </Typography>
                     <Search>
                         <SearchIconWrapper>

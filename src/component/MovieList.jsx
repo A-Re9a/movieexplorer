@@ -24,7 +24,6 @@ export default function MovieList() {
     };
 
     const fetchMovies = (url) => fetch(url).then(res => res.json()).then(data => data.results);
-
     const { data: popularMovies, isLoading: loadingPopular } = useQuery({ queryKey: ['popularMovies'], queryFn: () => fetchMovies(endpoints.popular) });
     const { data: topRatedMovies, isLoading: loadingTopRated } = useQuery({ queryKey: ['topRatedMovies'], queryFn: () => fetchMovies(endpoints.topRated) });
     const { data: nowPlaying, isLoading: loadingNowPlaying } = useQuery({ queryKey: ['nowPlaying'], queryFn: () => fetchMovies(endpoints.nowPlaying) });
